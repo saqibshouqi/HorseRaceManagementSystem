@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@CSS/main.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rapidrunprogrammingcw.UpdateHorseDetails">
+   <children>
+      <Label layoutX="50.0" layoutY="75.0" text="Enter Horse ID to Update:" />
+      <TextField fx:id="horseId" layoutX="200.0" layoutY="75.0" />
+      <Label layoutX="50.0" layoutY="125.0" text="Horse Name : " />
+      <Label layoutX="50.0" layoutY="160.0" text="Jockey Name : " />
+      <Label layoutX="50.0" layoutY="195.0" text="Age : " />
+      <Label layoutX="50.0" layoutY="230.0" text="Breed : " />
+      <Label layoutX="50.0" layoutY="265.0" text="Race Record : " />
+      <Label layoutX="50.0" layoutY="300.0" text="Group :" />
+      <TextField fx:id="horseName" layoutX="200.0" layoutY="125.0" />
+      <TextField fx:id="jockeyName" layoutX="200.0" layoutY="160.0" />
+      <TextField fx:id="age" layoutX="200.0" layoutY="195.0" />
+      <TextField fx:id="breed" layoutX="200.0" layoutY="230.0" />
+      <TextField fx:id="raceRecord" layoutX="200.0" layoutY="265.0" />
+      <TextField fx:id="group" layoutX="200.0" layoutY="300.0" />
+
+      <Button fx:id="update" layoutX="249.0" layoutY="361.0" mnemonicParsing="false" onAction="#onUpdateButtonClick" text="Update" />
+
+
+      <Text layoutX="210.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Horse Details">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

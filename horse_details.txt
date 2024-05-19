@@ -1,0 +1,6 @@
+1,Whity,Saqib,10,Hay,5 wins,Group A,
+2,Blacky,Nim al,13,Hay,19 wins,Group B,
+3,Candy,Amal,7,Grass,5 wins,Group C,
+4,Runner,Thomas,8,Grains,7 nwins,Group D,
+5,Black Runner,Joe,8,Grass,6 wins,Group D,
+6,White champ,Ama,8,Grains,7 wins,Group A,

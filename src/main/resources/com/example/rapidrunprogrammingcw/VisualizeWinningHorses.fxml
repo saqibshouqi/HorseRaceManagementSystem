@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="background" prefHeight="400.0" prefWidth="750.0" stylesheets="@CSS/main.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rapidrunprogrammingcw.VisualizeWinningHorses">
+   <children>
+      <Label layoutX="222.0" layoutY="10.0" prefWidth="156.0" text="Visualize Winning Horses">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <BarChart fx:id="barChart" layoutX="50.0" layoutY="50.0" prefHeight="300.0" prefWidth="500.0">
+         <xAxis>
+            <CategoryAxis />
+         </xAxis>
+         <yAxis>
+            <NumberAxis />
+         </yAxis>
+      </BarChart>
+      <Label layoutX="266.0" layoutY="41.0" text="(Time Taken)" />
+   </children>
+</AnchorPane>

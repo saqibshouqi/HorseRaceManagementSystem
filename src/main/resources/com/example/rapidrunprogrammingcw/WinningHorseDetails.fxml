@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="background" prefHeight="400.0" prefWidth="600.0" stylesheets="@CSS/main.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rapidrunprogrammingcw.WinningHorseDetails">
+   <children>
+      <TableView fx:id="horseTableView" layoutX="20.0" layoutY="50.0" prefHeight="330.0" prefWidth="560.0">
+         <columns>
+            <TableColumn fx:id="positionColumn" prefWidth="51.20001220703125" text="Position" />
+            <TableColumn fx:id="timeColumn" prefWidth="35.20001220703125" text="Time" />
+            <TableColumn fx:id="idColumn" prefWidth="24.800048828125" text="ID" />
+            <TableColumn fx:id="nameColumn" prefWidth="88.79998779296875" text="Name" />
+            <TableColumn fx:id="jockeyColumn" prefWidth="79.20001220703125" text="Jockey" />
+            <TableColumn fx:id="ageColumn" prefWidth="30.4000244140625" text="Age" />
+            <TableColumn fx:id="breedColumn" prefWidth="91.99993896484375" text="Breed" />
+            <TableColumn fx:id="raceRecordColumn" prefWidth="105.5999755859375" text="Race Record" />
+            <TableColumn fx:id="groupColumn" prefWidth="51.20001220703125" text="Group" /> <!-- Added group column -->
+         </columns>
+      </TableView>
+      <Text layoutX="231.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Winning Horse Details">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
